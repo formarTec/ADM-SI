@@ -1,0 +1,24 @@
+http://localhost:3000/cliente/
+
+###
+
+POST http://localhost:3000/cliente/
+content-type: application/json
+
+{
+    "nome": "Andrezinho do Pneu",
+    "email": "andrezinhoDoPneu2@email.com",
+    "telefone": "19993081069"
+}
+
+###
+
+POST http://localhost:3000/produto/
+content-type: application/json
+
+{
+    "nome": "Pastel de Frango",
+    "categoria": "Pasteis",
+    "preco": 15.00,
+    "estoqueMinimo": 10
+}
